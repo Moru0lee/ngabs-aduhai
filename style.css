@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    background-image: url('sigma.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: grey;
+}
+
+.container{
+    background: rgba(16, 14, 14, 0.558);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 35, 35, 0.446);
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+}
+
+button{
+    padding: 7px;
+    border: none;
+    background: grey;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3 ease, transform 0.2s ;
+}
+
+button :hover{
+    background: pink;
+    transform: scale(1.05);
+}
+
+#hasil{
+    margin-top: 20px;
+}
